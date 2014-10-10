@@ -1,4 +1,4 @@
-package com.dSpit.conversions.convert;
+package com.dSpit.conversions;
 
 public interface Conversions {
 	

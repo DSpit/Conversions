@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
-import com.dSpit.conversions.convert.Conversions;
+import com.dSpit.conversions.Conversions;
 
 @SuppressWarnings("serial")
 public class MainFrame extends JApplet{
