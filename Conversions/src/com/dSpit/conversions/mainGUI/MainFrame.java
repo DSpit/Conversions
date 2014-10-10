@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 import javax.swing.JTextField;
 
-import com.dSpit.conversions.Conversions;
+import com.dSpit.conversions.*;
 
 @SuppressWarnings("serial")
 public class MainFrame extends JApplet{
@@ -110,9 +110,9 @@ public class MainFrame extends JApplet{
 			}
 			
 			if(mConvertSelectorGroup.getSelection().equals(mToCan)){
-				conversion = USAtoCAN();
+				conversion = new USAtoCAN();
 			}else{
-				conversion = CANtoUSA();
+				conversion = new CANtoUSA();
 			}
 			
 			
